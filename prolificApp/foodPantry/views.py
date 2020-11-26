@@ -9,6 +9,8 @@ def index():
 def about():
 	return render_template('About.html')
 #creates endpoint for the About webpage 
+
+
 @foodPantry_app.route('/directory')
 def directory():
 	return render_template('Directory.html')
